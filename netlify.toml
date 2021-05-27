@@ -7,13 +7,15 @@
 # Use the current plugin in builds for testing and debugging.
 # Local path to the plugin.
 package = "."
-  # Plugin configuration
-  #  [plugins.inputs]
-  #  foo = "bar"
+  [plugins.inputs]
+  inputPath = "cv/index.html"
+  outputPath = "cv/out.pdf"
 
 [build]
 # Dummy build command
 command = "echo onBuild"
+#for testing
+publish = "test"
 
 [build.environment]
 NODE_VERSION = "12.18.0"
