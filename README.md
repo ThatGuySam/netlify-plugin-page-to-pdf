@@ -1,9 +1,9 @@
-Netlify Build plugin page-to-pdf - Create a PDF frile from a given URL using the Print CSS.
+Netlify page-to-pdf - Create a PDF frile from a given URL using the Print CSS.
 
 # Install
 
-Please install this plugin from the Netlify app.
+this was planned as a netlify plguin - its a difficult dependancy tree of loading a page to print on the deployed site and then adding a new file to said site
 
 # Configuration
 
-The following `inputs` options are available.
+modify the index.js
