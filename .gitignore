@@ -9,5 +9,6 @@ node_modules
 .nyc_output
 !.github/
 /coverage
-/build
+
 .netlify
+.DS_Store

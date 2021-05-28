@@ -1,21 +1,3 @@
-##############################
-# Netlify configuration file #
-##############################
-
-# List of Build plugins
-[[plugins]]
-# Use the current plugin in builds for testing and debugging.
-# Local path to the plugin.
-package = "."
-  [plugins.inputs]
-  inputPath = "cv/index.html"
-  outputPath = "cv/out.pdf"
-
 [build]
-# Dummy build command
-command = "echo onBuild"
-#for testing
-publish = "test"
-
-[build.environment]
-NODE_VERSION = "12.18.0"
+  command = "node index.js"
+  publish = "dist"
