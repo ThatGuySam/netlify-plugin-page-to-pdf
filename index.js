@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-const inputPath = 'https://lukas.grebe.me/cv/';
+const inputPath = 'https://en.wikipedia.org/wiki/PDF';
 const outputPath = './dist/Lukas Grebe CV.pdf';
 
 
